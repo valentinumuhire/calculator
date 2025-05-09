@@ -1,0 +1,39 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5d5d61;
+  padding: 40px;
+} 
+fieldset{
+  width: 20cm;
+  height: auto;
+  background-color: rgb(244, 245, 248);
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 1.5cm;
+  margin-top: 40px;
+}
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 10px;
+}
+input,button:hover{
+  color: rgb(17, 15, 15);
+  background-color: rgb(255, 255, 255);
+}
+input {
+  width: 200px;
+}
+#output {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  white-space: pre-wrap;
+}
